@@ -49,8 +49,6 @@ class Silinder implements iSilinder
 
 }
 
-
-
 public class program1
 {
     public static void main(String[] args)
@@ -60,6 +58,7 @@ public class program1
         int n, aboveavg=0;
         double diameter, tinggi, lebar, totalvolume=0, avgvolume;
         n = input.nextInt();
+        
         for(int i=0; i<n; i++)
         {
             Silinder s = new Silinder();
@@ -83,5 +82,6 @@ public class program1
         }
 
         System.out.printf("%.2f %d\n", avgvolume, aboveavg);
+        input.close();
     }
 }

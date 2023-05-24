@@ -90,5 +90,7 @@ public class Hotspot
                 Hotspot.get(i).getTitik();
             }   
         }
+        input.close();
     }
+
 }

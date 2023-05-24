@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class Pegawai {
     protected String id;
@@ -77,7 +76,7 @@ public class program1
         Scanner input = new Scanner(System.in);
         ArrayList<Tetap> arr_tetap = new ArrayList<Tetap>();
         ArrayList<Harian> arr_harian = new ArrayList<Harian>();
-        int i, j, n, usia, tipe, income, temp;
+        int i, n, usia, tipe, income;
         String id, cmd = "";
         Tetap temp_tetap;
         Harian temp_harian;
@@ -138,8 +137,7 @@ public class program1
             {
                 arr_harian.get(i).show();
             }
-
-        }
-        
+        }   
+        input.close();
     }
 }

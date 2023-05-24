@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class bilangan
 {
@@ -79,6 +78,7 @@ public class array
         avg2 = arr_angka.getavg();
         System.out.printf("%d %d\n", size1, size2);
         System.out.printf("%.2f %.2f\n", avg1, avg2);
+        input.close();
     }
 }
 

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 
 interface tanah
@@ -94,7 +93,8 @@ public class program2
         }
 
         System.out.printf("%.2f\n", pagar);
+        
+        
         input.close();
-
     }
 }
